@@ -1,5 +1,7 @@
 # Introduction 
 
+** Oliver Nakoinz**
+
 - Introduction: Vision
 - Introduction: Reality
 - Data types and structures
@@ -8,51 +10,86 @@
 - Workshop
 
 
-# Introduction: Vision
+## Introduction: Vision
 
 > **Task**: Provide research data according to the FAIR principles and to the reproducible research philosophy in a manageable way considering the practical conditions.
 
 - Challenge 1: Maintaining databases is very time consuming
+
     - Solution 1: Simple and permanent solutions (text based system, minimal software requirements, suitable for long term storage, git for versioning and gitlab for multiuser)
-- Challenge 2: Project resources tend to drain after some data are produced and there is no time for proper data publication
-    - Solution 2: Efficient template based workflow
+
+- Challenge 2: Project resources tend to drain after some data are produced and there is no time for proper data publication 
+
+    - Solution 2: Efficient template based workflow 
+
 - Challenge 3: Complicated databases prevent its practical use
+
     - Solution 3: shifting structural complexity to content complexity, differentiation of core data and additional data, de-normalisation, few tables and columns
+
 - Challenge 4: Rigid structures are not compatible with the heterogenity of research approaches.
+
     - Solution 4: Flexible structures (ontologies and terminologies are data and not fixed, key-value, translation)
+
 - Challenge 5: The concept of dynamic databases is not consistent with the concept of reproducible research
+
     - Solution 5: Publication of file based database snapshots that are used for certain purposes and are products of their own rights
+
 - Challenge 6: Communities tend to use specific repositories
+
     - Solution 6: Submit to different data repositories and connect the items (e.g. one doi)
+
 - Challenge 7: Binary attributes do not map reality.
+
     - Solution 7: Probabilities or membership values attached
+
 - Challenge 8: Documentation can be lost
+
     - Documentation as complementary text based file side by side with the data
+
     
-# Introduction: Reality
+## Introduction: Reality
 
-- lots of old data
-	- analogue
-	- pdf
-	- xls
-	- mdb
-	- postgresql
-	- sqlite
-- active data: project folders with .csv
-- supportive material: R-packages and Gitlab repositories for specific purposes
-	- ArchChron (methods for handling chronological data on Gitlab)
-	- dataArch (archaeological data in R-Package ON Gitlab)
-	- chronsys (collection of chronological systems on Gitlab)
-- target repositories
-	- Gitlab
-	- Zenodo
-	- ArkeoGIS
-	- opendata@uni-kiel
-	- JMA data exchange platform
-	- Landman (CRC 1266)
-	
+- Lots of old data
 
-# Data types and structures  {background-color="#9DB2CB"}
+    - analogue 
+
+    - pdf
+
+    - xls
+    
+    - mdb
+    
+    - postgresql
+    
+    - sqlite
+    
+- Active data: project folders with .csv 
+
+- Supportive material: R-packages and Gitlab repositories for specific purposes 
+
+    - ArchChron (methods for handling chronological data on Gitlab)
+    
+    - dataArch (archaeological data in R-Package ON Gitlab)
+    
+    - chronsys (collection of chronological systems on Gitlab)
+    
+
+- Target repositories 
+
+    - Gitlab 
+
+    - Zenodo 
+
+    - ArkeoGIS 
+    
+    - opendata@uni-kiel 
+    
+    - JMA data exchange platform 
+    
+    - Landman (CRC 1266) 
+
+
+# Data types and structures
 
 - Numbers
 - Text
@@ -66,124 +103,207 @@
 ## Numbers
 
 - id or uuid
+
     - 37
+
     - 30e23524-df31-11ea-89f8-f894c2a8d12b
+
 - id_parent or uuid_parent
+
 - frequencies of measures
+
     - 55
+
     - 65.234753
 
 ## Text fields
 
 - name: site names, ...  
+
     - "Wees-Oxbuell, Steingrab 19"
+
 - cat_no: id of the original catalogue
+
     - "254a"
+
     - "43.56.1"
+
     - "42.45, KS1907.23b"
+
 - class: general category
+
     - "site"
+
     - "part"
+
     - "structure"
+
 - type: object classification
+
     - simple: "megalithicTomb"
+
     - string: "grave>megalithic_tomb"
+
     - comment: consider names that can be turned to proper column names (no spaces and special characters)
+
 - comment
+
     - "this is an extraordinary site"
 
 ## Quality assessment
 
 - location_q: int: quality of location
+
     - 3: some m
+
     - 2: about 100 m
+
 	- 1: about 1000 m
+
 	- 0: unknown
+
 - chron_q: num quality of dating
+
 	- 3: save dating with precision of few phases
+
 	- 2: probable dating with precision of at least of epochs (e. g. Preroman Iron Age)
+
 	- 1: plausible dating to broad epochs Metal Ages
+
 	- 0: no chronological information
+
 - info_q: num general quality
+
 	- 3: site exists and location_q and chron_q are 2 or better  
+
 	- 2: site exists and location_q and chron_q are 1 or better
+
 	- 1: site existence questionable or location_q or chron_q are 0 or
+
 	- 0: site does not exist
+
 
 ## Space (Coordinates)
 
 - `x`, `y`, num: coordinate columns
+
     - 559814.7231
+
     - comment: points only
-    - comment: avoid geographical coordinates unless the area is extensivly large
+
+    - comment: avoid geographical coordinate system unless the area is extensively large and use projected systems instead
+
 - `WKT`, chr:    coordinates WKT format (SRID=32632 (epsg) in metadata or ewkt)
+
     - "Point (559814.7231 6056013.7338)"
+
     - comment: each simple feature geometry possible
+
     - comment: readable by GIS and by humans
 
 ## Time (Chronology)
 
+
 - chronological Strings:
+
     - `chronologySystem_Chronologystring_MembershipValue`
+
     - "fortME_Vorg>EZ>Lt>FLT>LtA_1.0, fortME_Vorg>EZ>Lt>FLT>LtA1_0.5"
+
     - `14C_LabNo_BP_1sigma`
+
     - "14C_Poz-16047_3510_30"
+
 - chronological reference system at chronsys gitlab repository
+
+
 
 ## Chronology Reference: Traditional approaches
 
 - [https://perio.do/en/](https://perio.do/en/)
+
     - does not consider chronological hierarchies
+
     - download (.csv possible) mainly contains links, hence, not usable for reproducible research.
+
 - [https://chronontology.dainst.org](https://chronontology.dainst.org)
-    - online only (download (.json only) for single phases only and no text based download), hence, not usable for reproducible research.
-    - not organized based on chronological systems
+
+    - online only (download (.json only) for single phases only and no text based download), hence, not usable for 
+    reproducible research.
+    
+    - not organised based on chronological systems
+
 
 ## Chronology Reference: chronsys (Gitlab Repositorium)
 
 - [https://gitlab.com/oliver.nakoinz/archchron](https://gitlab.com/oliver.nakoinz/archchron)
 - csv-files focused on chronological systems and hierarchical order
 - columns:
+
     - **c_system**: name of the chronology system
+
     - **id**: identification number inside the chronology system
+
     - **p_id**: id of the superior entity
+
     - **c_level**: hierarchy level starting with the most general entity
+
     - **c_order**: order inside one hierarchy level
+
     - **datstring**: chronology string
+
     - **name_short**: short name, must be identical with the last phase name of the chronology string, avoid tailing spaces
+
     - **name_long**: more comprehensive name of the phase
+
     - **start**: start year of the phase, negative means BC, same year as end year of the previous phase
+
     - **end**: end year of the phase
+
 - interval scale (0 and - 55.3 are valid) instead of numerical lables for years
+
 - now web-view, just data
+
 - You can easily construct your own chronsys-csv-file
+
 
 ## Complex data
 
+
 - user defined desciption language, text
+
 - example: Fortification Description Language (FDL)
-    - $(b1,2(b3(d134,3)))$ is a ring wall with murus gallicus and ditch. This is preceded by a section ditch and this in turn by a section rampart with ditch.
+
+    - $(b1,2(b3(d134,3)))$ is a ring wall with murus gallicus and ditch. This is preceded by a section ditch and this in turn 
+    by a section rampart with ditch.
+    
     - $((d1)(c1))$ is a ring wall and an adjoining, i.e. adjacent, semicircular rampart.
+
     - $(d1(d1,1)))$ three nested ring ramparts, the innermost of which has a ditch. 
+
     - $c1\subset(d1)$ a semicircular extension added to a ring rampart. The enclosure may not be complete. 
+
     - $(b1{d1})$ secure section rampart with more uncertain ring rampart.
+
     - ${b1(d1)}$ secure ring wall with insecure section wall
+
     - $(b1);(b1)$ two m.w. facing section ramparts
+
     - ${d1((d1);(d1))}$ two separate ring ramparts surrounded by an insecure comprehensive ring rampart
+
     - $((<b1(<b1)(b1>))$ two section walls directed to the left and one to the right close off an area.
 
 
+# Database
 
-# Databases {background-color="#9DB2CB"}
-
-- Principle
+- Principles
 - Format
 - Denormalisation
 - Tables
 - Key-value
 
 
-## Principle 
+## Principles
 
 - as few tables as possible
 - as few columns as possible
@@ -193,13 +313,20 @@
 
 ## Format 
 
-- file based formats in reproducible projects
+- File based formats in reproducible projects
+
     - text based formats (e.g. .csv) if possible
+
     - established and simple binary formats (e.g. sqlite) if required
-- no server based formats in reproducible projects
+
+- No server based formats in reproducible projects
+
     - snapshots to files allowed
-- no xls., .mdb, .dbase etc.!
-- no Excell for working with data
+
+- No xls., .mdb, .dbase etc.!
+
+- No Excell for working with data
+
     - OO or LO calc is allowed
 
 ## Denormalisation
@@ -213,27 +340,42 @@
 ## Tables
 
 - use same or similar structure for tables if possible
+
 - example:
+
     - sites
+
     - features
+
         - same structure as sites
+
         - if the size of sites of the main table would grow to fast, otherwise can be included via class field ("sites" and "features")
+
     - chronsys
+
     - key-value
+
     - thes
 
 ## Key-value
 
 - allows for 
+
 - KeyValue.csv table
+
     - **id**: int, id or uuid
+
     - **table**: chr, table name to which the entry belongs 
+
     - **id_secondary**: int, row to which the entry belongs
+
     - **key**: chr, category of value (to be explained in the metadata)
+
     - **value**: chr, value
 
 
-# Metadata  {background-color="#9DB2CB"}
+
+# Metadata
 
 - Dublin Core and .yaml
 - Example
@@ -248,47 +390,35 @@
 
 ```{}
 ---
-contributor:     Laurenz Hillmann, hillmann_laurenz@gmx.de, orcid???; Anna-Theres Andersen
-creator:         Laurenz Hillmann, hillmann_laurenz@gmx.de
-location:        DE, Angeln and Schwansen 
+contributor:     author1name, author1email, author1orcid; author2name, author2email, author2orcid
+creator:         creator1name, creator1email, creator1orcid
+location:        DE, 
 period:          Bronze Age, Iron Age
 date:            2022
 subject:         archaeological sites
-title:           Willroth1992
+title:           xxxxdataname
 type:            sites 
 version:         1.0.0
 description:     
     - `id`, int:     identification number
     - `cat_no`, chr: catalogue number according to Willroth
     - `name`, chr:   site name
-    - `type`, chr:   site type: grave>cemetery, grave>tumulus, grave>flat_grave, grave>secondary_burial, grave>secondary_urn_burial, settlement, hoard
+    - `type`, chr:   site type:  refer to thes.csv
     - `chron`, chr:  chronology string according to https://gitlab.com/oliver.nakoinz/chronsys/-/blob/main/landscWillroth1992.csv with tailing probabilities
     - `comment`, chr: any comments, German
     - `source`, chr: particular source information
-    - `location_q`, int: quality of localisation
-    	- 3: some m
-		- 2: about 100 m
-		- 1: about 1000 m
-		- 0: unknown
-    - `chron_q`, int: quality of chronological dating
-		- 3: save dating with precision of few phases
-		- 2: probable dating with precision of at least of epochs (e. g. Preroman Iron Age)
-		- 1: plausible dating to broad epochs Metal Ages
-		- 0: no chronological information
-    - `info_q`, int: general quality of the information comprising chron_q, location_q and general quality of observations
-		- 3: site exists and location_q and chron_q are 2 or better  
-		- 2: site exists and location_q and chron_q are 1 or better
-		- 1: site existence questionable or location_q or chron_q are 0 or
-		- 0: site does not exist
+    - `location_q`, int: quality of localisation (refer to thes.csv)
+    - `chron_q`, int: quality of chronological dating (refer to thes.csv)
+    - `info_q`, int: general quality of the information comprising chron_q, location_q and general quality of observations (refer to thes.csv)
     - `WKT`, chr:    coordinates WKT format, SRID=32632, precision=site (see column location_q for specific information)
-source:          Willroth, K.-H., Untersuchungen zur Besiedlungsgeschichte der Landschaften Angeln und Schwansen von der älteren Bronzezeit bis zum frühen Mittelalter. Wachholtz, Neumünster, 1992.
+source:          xxxreference
 language:        en, de  
 rights:          https://creativecommons.org/licenses/by/4.0/
 format:          csv, sep=";", utf-8
 ---
 ```
 
-# Worlflow  {background-color="#9DB2CB"}
+# Worlflow 
 
 ## Worlflow
 
@@ -492,4 +622,5 @@ format:          csv, sep=";", utf-8
 
 
 ##  ![](../4figures/icons/bib.svg) References
+
 
