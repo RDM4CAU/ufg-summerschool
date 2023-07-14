@@ -2,7 +2,7 @@
 Educational Material from RDM Summer School in Pre- and Protohistoric Archaeology
 
 ## Description
-The collection of open educational resources (OER) in this repository was created for a Summer School on reserach data management for students of [Pre- and Protohistoric Archaeology of Kiel University](https://www.ufg.uni-kiel.de/en?set_language=en), conducted 2023-07-10 to 2023-07-14. The collection contains presentations given during the Summer School and expanded collaboratively by teachers and students during the Summer School.
+The collection of open educational resources (OER) in this repository was created for a Summer School on research data management for students of [Pre- and Protohistoric Archaeology of Kiel University](https://www.ufg.uni-kiel.de/en?set_language=en), conducted 2023-07-10 to 2023-07-14. The collection contains presentations given during the Summer School and expanded collaboratively by teachers and students during the Summer School.
 
 * Introduction to Researach Data Management (RDM)
 * Researach Data Management as part of project planning 
