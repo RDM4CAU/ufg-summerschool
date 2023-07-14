@@ -11,39 +11,39 @@ comment:  Presentation for full day workshop "Introduction to Research Data Mana
 
 
 -->
+# Publishing Data Online
+**Lizzie Scholtus**  
 
-# Why publishing data? {background-color="black" background-image="image/connection.jpg" background-size="contain"}
+Institut für Ur- und Frühgeschichte  
+
+Research Data Management, 10-14 July 2023, Kiel
+
+# Why publishing data?
 
 ## Why publishing data online?
 
-:::: {.columns}
+<div style="float:left; width:50%;">
 
-::: {.column width="50%"}
-
-::: {.incremental}
 - To share data
+  
   - Open Science
+  
   - FAIR Principles
 
-:::
+</div>
 
-:::
-
-::: {.column width="50%"}
-![](image/why.png)
-:::
-
-::::
+<div style="float:right; width:50%;">
+![](publishing-data/image/why.png)
+</div>
 
 ## Why publishing data online?
 
-::: {style="margin-top: -100px; margin-left: 900px"}
-![](image/Open_Access.png){width=80}
-:::
+<div style="float:right; width=80;">
+<img src="publishing-data/image/Open_Access.png">
+</div>
 
-:::: {.columns}
 
-::: {.column width="60%"}
+<div style="float:left; width:60%;">
 
 What is Open Science?
 
@@ -53,26 +53,27 @@ What is Open Science?
   - Hypothesis, methodologies, protocols, codes, formats and results
 - Participative science
 
+</div>
 
-:::
+<div style="float:right; width:40%;">
 
-::: {.column width="40%"}
-![](image/Open_science.png)
+![](publishing-data/image/Open_science.png)
+
 <small>
 *Pillars of the Open Science*  
+
 *according to UNESCO's 2021 Open Science recommendation.*  
+
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Open_science)
 </small>
 
-:::
-
-::::
+</div>
 
 
 ## Why publishing data online?
 
 ::: {style="margin-top: -100px; margin-left: 900px"}
-![](image/Open_Access.png){width=80}
+![](publishing-data/image/Open_Access.png){width=80}
 :::
 
 :::: {.columns}
@@ -89,7 +90,7 @@ What is Open Science?
 
 ::: {.column width="30%"}
 
-![](image/plan_national.png)
+![](publishing-data/image/plan_national.png)
 
 <small>
 *French national plan for Open Science*  
@@ -115,7 +116,7 @@ Questions that are now integreted in government research strategies (in France a
 
 What are FAIR principles?
 
-![](image/FAIR.png)
+![](publishing-data/image/FAIR.png)
 
 
 
@@ -159,7 +160,7 @@ give priority to open and widely shared languages and formats + permanent identi
 :::
 
 ::: {.column width="50%"}
-![](image/why.png)
+![](publishing-data/image/why.png)
 :::
 
 ::::
@@ -178,11 +179,11 @@ give priority to open and widely shared languages and formats + permanent identi
 This doesn't mean that you don't need anymore internal back up, but online plateforms offer security
 :::
 
-# Where to publish data? {background-color="black" background-image="image/web.jpg" background-size="contain"}
+# Where to publish data? {background-color="black" background-image="publishing-data/image/web.jpg" background-size="contain"}
 
 ## Where to publish data? {.smaller}
 
-![](image/not_equal.png){.absolute top=230 left=420 width="100" height="100"}
+![](publishing-data/image/not_equal.png){.absolute top=230 left=420 width="100" height="100"}
 
 :::: {.columns}
 
@@ -312,7 +313,7 @@ Each platform has its own benefits and inconvenience
   - to prepare your data in advance
 :::
 
-# Three platforms, Three uses {background-color="white" background-image="image/platform2.jpg" .reveal}
+# Three platforms, Three uses {background-color="white" background-image="publishing-data/image/platform2.jpg" .reveal}
 
 ```{css}
 #reveal {
@@ -321,10 +322,10 @@ Each platform has its own benefits and inconvenience
 }
 ```
 
-## Git Platforms {background-color="White" background-image="image/github-vs-gitlab.jpg" background-size="contain"}
+## Git Platforms {background-color="White" background-image="publishing-data/image/github-vs-gitlab.jpg" background-size="contain"}
 ::: {.fragment .fade-in}
 ::: {.fragment .fade-out}
-![](image/git.jpg)
+![](publishing-data/image/git.jpg)
 :::
 :::
 
@@ -343,7 +344,7 @@ Each platform has its own benefits and inconvenience
 
 ::: {.column width="50%"}
 
-[![](image/github.png){width=75}](https://github.com/)
+[![](publishing-data/image/github.png){width=75}](https://github.com/)
 
 ::: {.fragment .fade-in}
 - Oldest (2008)
@@ -358,7 +359,7 @@ Each platform has its own benefits and inconvenience
 
 ::: {.column width="50%"}
 
-[![](image/gitlab.png){width=60}](https://gitlab.com/)
+[![](publishing-data/image/gitlab.png){width=60}](https://gitlab.com/)
 
 ::: {.fragment .fade-in}
 - Open source
@@ -387,13 +388,13 @@ Each platform has its own benefits and inconvenience
 
 
 ::: {style="margin-left: 400px; margin_top: 100px"}
-![](image/gitlab.png){width=300}
+![](publishing-data/image/gitlab.png){width=300}
 :::
 
 ## [Gitlab](https://gitlab.com/) {auto-animate=true .smaller}
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
-![](image/gitlab.png){width=60}
+![](publishing-data/image/gitlab.png){width=60}
 :::
 
 
@@ -458,14 +459,14 @@ Each platform has its own benefits and inconvenience
 
 ::: {style="margin-left: 400px; margin_top: 100px"}
 
-![](image/Zenodo_logo.jpg){width=300}
+![](publishing-data/image/Zenodo_logo.jpg){width=300}
 
 :::
 
 ## [Zenodo](https://zenodo.org/) {auto-animate=true .smaller}
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
-![](image/Zenodo_logo.jpg){width=150}
+![](publishing-data/image/Zenodo_logo.jpg){width=150}
 :::
 
 
@@ -529,14 +530,14 @@ Each platform has its own benefits and inconvenience
 
 ::: {style="margin-left: 250px; margin_top: 50%"}
 
-![](image/ArkeoGIS.png){width=500}
+![](publishing-data/image/ArkeoGIS.png){width=500}
 
 :::
 
 ## [ArkeoGIS](https://arkeogis.org/) {auto-animate=true .smaller}
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
-![](image/ArkeoGIS.png){width=150}
+![](publishing-data/image/ArkeoGIS.png){width=150}
 :::
 
 
@@ -592,11 +593,11 @@ Each platform has its own benefits and inconvenience
 ## [ArkeoGIS](https://arkeogis.org/) {.smaller}
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
-![](image/ArkeoGIS.png){width=150}
+![](publishing-data/image/ArkeoGIS.png){width=150}
 :::
 
 ::: {style="margin-top: -30px; margin-left: 700px"}
-![](image/arkeopen.svg){width=150}
+![](publishing-data/image/arkeopen.svg){width=150}
 :::
 
 
@@ -649,7 +650,7 @@ Each platform has its own benefits and inconvenience
 
 :::
 
-# What is LOD? {background-color="black" background-image="image/web2.jpeg" background-size="contain" .reveal}
+# What is LOD? {background-color="black" background-image="publishing-data/image/web2.jpeg" background-size="contain" .reveal}
 
 ## What is LOD? (Link Open Data) {.smaller}
 
@@ -668,7 +669,7 @@ Each platform has its own benefits and inconvenience
 ::: {.column width="50%"}
 
 
-![](image/LOD.jpg)
+![](publishing-data/image/LOD.jpg)
 
 
 :::
@@ -686,7 +687,7 @@ Each platform has its own benefits and inconvenience
 ## What is Semantic Web? {.smaller}
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
-![](image/semantic.png){width=150}
+![](publishing-data/image/semantic.png){width=150}
 :::
 
 :::: {.columns}
@@ -721,7 +722,7 @@ Each platform has its own benefits and inconvenience
 
 ::: {.fragment fragment-index=2 .fade-out}
 
-![](image/CIDOC.png)
+![](publishing-data/image/CIDOC.png)
 *Conceptual model based on [CIDOC CRM](https://cidoc-crm.org/) ontology*
 
 :::
@@ -734,7 +735,7 @@ Each platform has its own benefits and inconvenience
 
 ::: {.absolute top="30%"}
 
-  ![](image/thesaurus.png)
+  ![](publishing-data/image/thesaurus.png)
 :::
 
 :::
@@ -745,7 +746,7 @@ Each platform has its own benefits and inconvenience
 
 ::: {.absolute top="30%"}
 
-  [![](image/ariadne.png)](https://portal.ariadne-infrastructure.eu/search?q=fibula)
+  [![](publishing-data/image/ariadne.png)](https://portal.ariadne-infrastructure.eu/search?q=fibula)
   
   [A new platform for humanities](https://gotriple.eu/fr)
 :::
@@ -767,7 +768,7 @@ Each platform has its own benefits and inconvenience
 - All of this is how the whole web is constructed and it is how we can use browsers to look for webpages
 :::
 
-# What does this mean for you? {background-image="image/Uncle_Sam.png" background-size="50%" .reveal}
+# What does this mean for you? {background-image="publishing-data/image/Uncle_Sam.png" background-size="50%" .reveal}
 
 ## What does this mean to you? {.smaller}
 
@@ -784,11 +785,11 @@ Each platform has its own benefits and inconvenience
 
 ::: {.column width="40%"}
 
-![](image/FAIR_small.jpg)  
+![](publishing-data/image/FAIR_small.jpg)  
 
 ::: {.absolute bottom="30%"}
 
-![](image/licence.jpg)
+![](publishing-data/image/licence.jpg)
 
 :::
 
@@ -825,11 +826,11 @@ To integrate best practice standards, you don't have to respect them all! It is 
 
 ::: {.column width="40%"}
 
-![](image/cnrs.png){width=80}
+![](publishing-data/image/cnrs.png){width=80}
 
 ::: {.absolute bottom="20%"}
 
-![](image/ESR.png){width=150}
+![](publishing-data/image/ESR.png){width=150}
 
 :::
 
@@ -837,7 +838,7 @@ To integrate best practice standards, you don't have to respect them all! It is 
 
 ::::
 
-## {background-image="image/Huma-Num.png" background-size="contain"}
+## {background-image="publishing-data/image/Huma-Num.png" background-size="contain"}
 
 ::: {.notes}
 
@@ -848,7 +849,7 @@ This government strategy is reflected in the French research landscape through t
 
 :::
 
-## {background-image="image/masa.png" background-size="contain"}
+## {background-image="publishing-data/image/masa.png" background-size="contain"}
 
 ::: {.notes}
 
@@ -859,7 +860,7 @@ The aim is to help archaeologists make their data interoperable and open up thei
 
 :::
 
-## {background-image="image/masa2.png" background-size="contain"}
+## {background-image="publishing-data/image/masa2.png" background-size="contain"}
 
 
 ::: {.notes}
