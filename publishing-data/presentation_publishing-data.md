@@ -38,8 +38,9 @@ Research Data Management, 10-14 July 2023, Kiel
 
 ## Why publishing data online?
 
-<div style="float:right; width=80;">
-<img src="publishing-data/image/Open_Access.png">
+<div style="float:right; width:20%;">
+  <img src="publishing-data/image/Open_Access.png">
+    <sub style="text-align: right;">Open Access</sub>
 </div>
 
 
