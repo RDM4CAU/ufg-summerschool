@@ -112,7 +112,7 @@
 - frequencies of measures
 
   - 55
-  - 65.234753
+  - 65,234753
 
 ## Text fields
 
