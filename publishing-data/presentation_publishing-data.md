@@ -280,9 +280,8 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 </div>
 
 
-
-
 ## Where to publish data?
+
 
 ![](publishing-data/image/workflow.png)
 
@@ -305,58 +304,49 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 
 ## Git Platforms {.smaller}
 
-::: {.columns}
+<div style="float:left; width:50%;">
 
-::: {.column width="50%"}
+[![](publishing-data/image/github.png)<!-- width = 75px -->](https://github.com/)
 
-[![](publishing-data/image/github.png){width=75}](https://github.com/)
-
-::: {.fragment .fade-in}
+{{1}}
+***********************************************
 - Oldest (2008)
+
 - More people
+
 - Bought by Microsoft
+
 - Less ready to use
+
   - Users need to pay to integrate elements themselves from third-party application
 
-:::
 
-:::
+***********************************************
 
-::: {.column width="50%"}
+</div>
 
-[![](publishing-data/image/gitlab.png){width=60}](https://gitlab.com/)
+<div style="float:right; width:50%;">
 
-::: {.fragment .fade-in}
+[![](publishing-data/image/gitlab.png)<!-- width = 75px -->](https://gitlab.com/)
+
+{{2}}
+***********************************************
+
 - Open source
+
 - Completely free at the beginning (not any more)
+
 - continuous integration and DevOps workflows
+
 - Need a paid account for some functionalities
 
-:::
 
-:::
+***********************************************
 
-::::
-
+</div>
 
 
-::: {.notes}
-- pretty similar
-  - For both the idea is to share code
-  - For both most basic function accessible
-  - BUT still some differences
-- continuous integration = for task automation and code deployment
- 
-:::
-
-## Gitlab {auto-animate=true}
-
-
-::: {style="margin-left: 400px; margin_top: 100px"}
-![](publishing-data/image/gitlab.png){width=300}
-:::
-
-## [Gitlab](https://gitlab.com/) {auto-animate=true .smaller}
+## [Gitlab](https://gitlab.com/)
 
 ::: {style="margin-top: -100px; margin-left: 700px"}
 ![](publishing-data/image/gitlab.png){width=60}
