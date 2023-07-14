@@ -102,26 +102,17 @@
 
 ## Numbers
 
-* id or uuid
-
-    * 37
-
-    * 30e23524-df31-11ea-89f8-f894c2a8d12b
-
-* id\_parent or uuid\_parent
-
-* frequencies of measures
-
-    * 55
-
-    * 65.234753
-
 - id or uuid
 
   - 37
   - 30e23524-df31-11ea-89f8-f894c2a8d12b
 
 - id\_parent or uuid\_parent
+
+- frequencies of measures
+
+  - 55
+  - 65.234753
 
 ## Text fields
 
