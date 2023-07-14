@@ -1,4 +1,4 @@
-## Instalation and usage of a database
+## Install and usage of a database
 <section>
 In this section you will learn how to **install** *SQLiteStudio*, **create** your first very own *database* and **add** some *tables* with different *columns*.
 
@@ -6,7 +6,9 @@ In our example we are using SQLite (https://www.sqlite.org/index.html) and the S
 
 ### Creating a database, tables and columns
 First steps:
-    
+
+* was auch immer
+* ![test](db_images/)
 
 ### Enter data into your database (manual and csv import)
 
