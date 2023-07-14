@@ -8,7 +8,8 @@ In our example we are using SQLite (https://www.sqlite.org/index.html) and the S
 First steps:
 
 * was auch immer
-* ![test](db_images/)
+* ![test](db_images/02.jpg)
+* test2
 
 ### Enter data into your database (manual and csv import)
 
