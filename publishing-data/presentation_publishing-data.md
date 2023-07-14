@@ -38,21 +38,26 @@ Research Data Management, 10-14 July 2023, Kiel
 
 ## Why publishing data online?
 
-<div style="float:right; width:20%;">
-  <img src="publishing-data/image/Open_Access.png">
-    <sub style="text-align: right;">Open Access</sub>
+<div style="float:right; width:5%;">
+  ![](publishing-data/image/Open_Access.png)
 </div>
 
+<br /><br /><br /><br />
 
 <div style="float:left; width:60%;">
 
 What is Open Science?
 
 - Free access to:
+
   - Scientific publications
+
   - Research data and metadata
+
   - Hypothesis, methodologies, protocols, codes, formats and results
+
 - Participative science
+
 
 </div>
 
@@ -66,278 +71,237 @@ What is Open Science?
 *according to UNESCO's 2021 Open Science recommendation.*  
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Open_science)
+
 </small>
 
 </div>
 
 
-## Why publishing data online?
+## What is Open Science?
 
-::: {style="margin-top: -100px; margin-left: 900px"}
-![](publishing-data/image/Open_Access.png){width=80}
-:::
+<div style="float:right; width:5%;">
+  ![](publishing-data/image/Open_Access.png)
+</div>
 
-:::: {.columns}
+<br /><br /><br /><br />
 
-::: {.column width="70%"}
+<div style="float:left; width:70%;">
 
-What is Open Science?
 
 - An organised community of various disciplines with convergent practices  
 [Manifeste des Digital Humanities](https://books.openedition.org/oep/235)
+
 - A government strategy
 
-:::
+</div>
 
-::: {.column width="30%"}
+<div style="float:right; width:30%;">
 
 ![](publishing-data/image/plan_national.png)
 
 <small>
 *French national plan for Open Science*  
+
 Source: [French Ministry of Higher Education and Research](https://www.enseignementsup-recherche.gouv.fr/fr/le-plan-national-pour-la-science-ouverte-2021-2024-vers-une-generalisation-de-la-science-ouverte-en-48525)
+
 </small>
 
-:::
-
-::::
-
-::: {.notes}
-
-Idea since the start of 2010 and influence research globaly
-Questions that are now integreted in government research strategies (in France at least)
-  National plan for Open Science and Law for a numeric republic
-  numerical data management, spreading and reproducibility
-
-:::
+</div>
 
 
-## Why publishing data online?
+## What are the FAIR principles?
 
-
-What are FAIR principles?
+<br/>
 
 ![](publishing-data/image/FAIR.png)
 
 
-
-::: {.notes}
-= a way of constructing, storing, presenting and publishing data in such a way as to make it more easily accessible, understood, exchangeable and reusable by the community.
-Introduced in 2014 in response to a growing desire to publish open data and to make the most of big data.
-
-- Easy to find >> file described by metadata (description of file content, authors, dates, etc.) and associated with a unique identifier to make it easy to find (DOI, HAL).
-
-- Accessible >> long-term storage of data and easy access to it 
-access to metadata through open and standard protocols + access to data through clear licences (not necessarily open or free)
-
-- Interoperable >> data can communicate with each other = various types and formats of data can be cross-referenced 
-give priority to open and widely shared languages and formats + permanent identifiers + alignment with repositories
-
-- Reusable >> must be facilitated by the use of common standards + clear, verified and well-described data >> directly reusable
-+ clear and accessible user licence (not necessarily free).
-
-:::
-
 ## Why publishing data online?
 
-:::: {.columns}
 
-::: {.column width="50%"}
-
+<div style="float:left; width:50%;">
 
 - To share data
+
   - Open Science
+
   - FAIR Principles
-  
-::: {.incremental}
+
+
+  {{1}}
+***************************************
+
 - To save data
+
   - Digital data can die
+
     - Accident
+
     - Software evolution
+
   - Version control
-  
-:::
 
-:::
 
-::: {.column width="50%"}
+***************************************
+
+
+</div>
+
+
+<div style="float:right; width:50%;">
+
 ![](publishing-data/image/why.png)
-:::
 
-::::
+</div>
 
-::: {.notes}
-- saving data: digital data can die and we have to multiply the number of backup media
-  - Who never lost data? Or was afraid of loosing his computer?
-  - Software evolution can also be a problem
-    - What happens to the data from your previous research project? Do you open them every year to make sure they are still readable?
-    - What about archives?
-- Online platforms often offer several extremely useful backup functions
-  - versioning
-  - cloud
-  - software evolution
-  - severs
-This doesn't mean that you don't need anymore internal back up, but online plateforms offer security
-:::
-
-# Where to publish data? {background-color="black" background-image="publishing-data/image/web.jpg" background-size="contain"}
-
-## Where to publish data? {.smaller}
-
-![](publishing-data/image/not_equal.png){.absolute top=230 left=420 width="100" height="100"}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-  
-::: {.fragment fragment-index=1}
-::: {.fragment .semi-fade-out fragment-index=2}
-- Institutional
-  - EU, Country, University
-:::
-:::
-
-::: {.fragment fragment-index=2}
-::: {.fragment .semi-fade-out fragment-index=3}
-- non-specialist
-:::
-:::
-
-::: {.fragment fragment-index=3}
-::: {.fragment .semi-fade-out fragment-index=4}
-- To deposit the data as it is
-  - Private (personal or institutional cloud)
-  - Public ([Zenodo](https://zenodo.org/), [Nakala](https://nakala.fr/), [HAL](https://hal.science/), [opendata@uni-keil](https://opendata.uni-kiel.de/content/index.xml)...)
-  - Both ([Gitlab](https://about.gitlab.com/), [Github](https://github.com/))
-:::
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment fragment-index=1}
-::: {.fragment .semi-fade-out fragment-index=2}
-- Private
-  - Free or not
-:::
-:::
-
-::: {.fragment fragment-index=2}
-::: {.fragment .semi-fade-out fragment-index=3}
-- Field specialised
-:::
-:::
-
-::: {.fragment fragment-index=3}
-::: {.fragment .semi-fade-out fragment-index=4}
-- To share the data with other datasets
-  - ([Ariadne](https://portal.ariadne-infrastructure.eu/), [ArkeoGIS](https://arkeogis.org/), Landman...)
-:::
-:::
-
-:::
-::::
-
-:::{.r-stack}
-::: {.fragment fragment-index=4}
-- To create your database ([Heurist](https://heurist.huma-num.fr/heurist/startup/))
-:::
-:::
-
-
-
-::: {.notes}
-There are lots of online platforms that allow to publish, deposit or share data. They can be from different categories, at different scales and for different usage
-:::
+# Where to publish data?
 
 ## Where to publish data?
 
-. . .
+<center>
+  ![](publishing-data/image/not_equal.png) <!-- width = "50px"-->
+</center>
 
-```{r}
-#| echo: false
+ <div style="float:left; width:40%;">
 
-library(DiagrammeR)
+ {{1-2}}
+************************************************
 
-grViz("
-  digraph {
+- Institutional
 
-    node[shape = box, fontname = Helvetica, style = filled, width = 1.5]
-    A1[label = 'My research is', fillcolor = 'DarkSalmon'] 
-    A2[label = 'I want to', fillcolor = 'DarkSalmon'] 
-    A3[label = 'My data is', fillcolor = 'DarkSalmon']
-    A4[label = 'I need specific element', fillcolor = 'DarkSalmon']
-    A5[label = 'My research is institutional', fillcolor = 'DarkSalmon']
-    
-    node[shape = circle, fixedsize = true, width = 1]
-    B11 [label = 'On going', fillcolor = 'LightSteelBlue'] 
-    B12 [label = 'Finish', fillcolor = 'LightSteelBlue']
-    
-    B21 [label = 'Create\ndata', fillcolor = 'LightSteelBlue']
-    B22 [label = 'Save\ndata', fillcolor = 'LightSteelBlue']
-    B23 [label = 'Share\ndata', fillcolor = 'LightSteelBlue']
-    
-    B31 [label = 'Code', fillcolor = 'LightSteelBlue']
-    B32 [label = 'Database', fillcolor = 'LightSteelBlue']
-    B321 [label = 'Spatial?', fillcolor = 'LightBlue']
-    B33 [label = 'Pictures', fillcolor = 'LightSteelBlue']
-    B34 [label = 'Results', fillcolor = 'LightSteelBlue']
-    
-    B41 [label = 'DOI', fillcolor = 'LightSteelBlue']
-    B42 [label = 'Version\ncontrol', fillcolor = 'LightSteelBlue']
-    
-    B51[label = 'Yes', fillcolor = 'LightSteelBlue']
-    B511[label = 'There is\n a DPM', fillcolor = 'LightBlue']
-    B5111[label = 'Yes', fillcolor = 'LightSteelBlue']
-    B5112[label = 'No', fillcolor = 'MistyRose']
-    B51111[label = 'I have\nacces to', fillcolor = 'LightBlue']
-    B511111[label = 'Institutional\nplatform', fillcolor = 'DarkSeaGreen', width = 1.2]
-    B511112[label = 'specialised\nplatform', fillcolor = 'DarkSeaGreen', width = 1.2]
-    B52[label = 'No', fillcolor = 'Grey']
-    
-    A1 -> {B11 B12}
-    A2 -> {B21 B22 B23}
-    A3 -> {B31 B32 B33 B34} B32 -> B321
-    A4 -> {B41 B42}
-    A5 -> {B51 B52} B51 -> B511 -> {B5111 B5112} B5112 -> B51111 -> {B511111 B511112}
-  }")
-```
+  - EU, Country, University
+
+************************************************
+
+ {{2}}
+************************************************
+
+<font color = "grey">
 
 
-::: {.notes}
-Each platform has its own benefits and inconvenience
-- private deposits may be the most simple to use but usually offer the less possibilities (freely)
-- deposit in common databases are the most inconvenient in terms of work load > need to adapt the data to their own conceptual model > but they are the ones that all the most diffusion of data
-- It is useful to know some of them even without using them
-  - to look for data or information
-  - to prepare your data in advance
-:::
+- Institutional
 
-# Three platforms, Three uses {background-color="white" background-image="publishing-data/image/platform2.jpg" .reveal}
+  - EU, Country, University
 
-```{css}
-#reveal {
-  position:fixed;
-  top: 0px;
-}
-```
 
-## Git Platforms {background-color="White" background-image="publishing-data/image/github-vs-gitlab.jpg" background-size="contain"}
-::: {.fragment .fade-in}
-::: {.fragment .fade-out}
+  </font>
+
+************************************************
+
+ {{2-3}}
+************************************************
+- non-specialist
+
+************************************************
+
+ {{3}}
+************************************************
+
+<font color = "grey">
+
+- non-specialist
+
+
+</font>
+
+************************************************
+
+ {{4-5}}
+************************************************
+
+- To deposit the data as it is
+
+  - Private (personal or institutional cloud)
+
+  - Public ([Zenodo](https://zenodo.org/), [Nakala](https://nakala.fr/), [HAL](https://hal.science/), [opendata@uni-keil](https://opendata.uni-kiel.de/content/index.xml)...)
+
+  - Both ([Gitlab](https://about.gitlab.com/), [Github](https://github.com/))
+
+************************************************
+
+</div>
+
+<div style="float:right; width:40%;">
+
+
+ {{1-2}}
+************************************************
+
+- Private
+
+  - Free or not
+
+
+{{2}}
+************************************************
+<font color = "grey">
+
+- Private
+
+  - Free or not
+
+</font>
+
+************************************************
+
+{{2-3}}
+************************************************
+
+- Field specialised
+
+************************************************
+
+{{3}}
+************************************************
+<font color = "grey">
+
+- Field specialised
+
+</font>
+
+************************************************
+
+{{3-4}}
+************************************************
+
+- To share the data with other datasets
+
+  - ([Ariadne](https://portal.ariadne-infrastructure.eu/), [ArkeoGIS](https://arkeogis.org/), Landman...)
+
+************************************************
+
+{{4}}
+************************************************
+
+- To create your database ([Heurist](https://heurist.huma-num.fr/heurist/startup/))
+
+************************************************
+
+</div>
+
+
+
+
+## Where to publish data?
+
+![](publishing-data/image/workflow.png)
+
+
+# Three platforms, Three uses 
+
+
+## Git Platforms 
+
+![](publishing-data/image/github-vs-gitlab.jpg)
+
+
+{{1}}
+*******************************************
+
 ![](publishing-data/image/git.jpg)
-:::
-:::
 
-::: {.notes}
-- Platform Git = based on GIT
- - version control system, open source
- - Allows working on different version of the same project and put them together again
- - But only locally
- 
-- Platforms = cloud based solutions
-:::
+*******************************************
+
 
 ## Git Platforms {.smaller}
 
