@@ -108,9 +108,9 @@
 
     * 30e23524-df31-11ea-89f8-f894c2a8d12b
 
-- id\_parent or uuid\_parent
+* id\_parent or uuid\_parent
 
-- frequencies of measures
+* frequencies of measures
 
     * 55
     
