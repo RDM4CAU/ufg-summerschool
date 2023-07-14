@@ -104,9 +104,9 @@
 
 * id or uuid
 
-    * 37
+* 37
 
-    * 30e23524-df31-11ea-89f8-f894c2a8d12b
+* 30e23524-df31-11ea-89f8-f894c2a8d12b
 
 - id_parent or uuid_parent
 
