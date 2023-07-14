@@ -114,15 +114,7 @@ When creating a database, there are certain steps to follow:
 2. Define the datatypes for each column - What values are permitted, which are forbidden?
 3. Determine the relations between your tables - How can you interlink them?
 
-For archaeological data, a standardised structure of the following was proposed by Oliver Nakoinz:
 
-*insert image here, but without the wrong connections*
-
-Depending on what we want to do with our data, the specific manifestation of this can vary. Let´s say, in this case we want to investigate the graves. So our grave table would be our main table. 
-The artifact table however would be used for the kv table.  (or look at artifacts and change them accordingly?)
-
-sec_key = from artifacts
-id = graves
 
 
 
