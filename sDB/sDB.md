@@ -1,6 +1,22 @@
-# Introduction 
+<!--
 
-** Oliver Nakoinz**
+author:   Oliver Nakoinz
+email:    oliver.nakoinz@ufg.uni-kiel.de
+version:  1.0
+language: en
+narrator: UK English Female
+
+icon:     introduction-to-rdm/images/cau-norm-en-lilagrey-rgb.png
+
+comment:  Research/Summer School on Research data Management 2023, mixed target group (students, PhDs)
+
+-->
+
+# sDB
+
+***Oliver Nakoinz***
+
+# Agenda 
 
 - Introduction: Vision
 - Introduction: Reality
