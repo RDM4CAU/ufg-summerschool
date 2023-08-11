@@ -213,7 +213,7 @@ tags: research data management, databases, archaeology, data types, data structu
   - not organised based on chronological systems
 
 
-## Chronology Reference: chronsys (Gitlab Repositorium)
+## Chronology Reference: chronsys (Gitlab Repository)
 
 - [https://gitlab.com/oliver.nakoinz/archchron](https://gitlab.com/oliver.nakoinz/archchron)
 - csv-files focused on chronological systems and hierarchical order
