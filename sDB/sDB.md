@@ -16,7 +16,7 @@ comment:
 tags: research data management, databases, archaeology, data types, data structures, metadata
 -->
 
-# sDB
+# Practicing the RDM pipeline with a simple data base template
 
 ***Oliver Nakoinz***
 
