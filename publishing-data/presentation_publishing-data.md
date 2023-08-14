@@ -2,15 +2,30 @@
 <!--
 
 title: "Publishing Data Online"
+
 author: "Lizzie Scholtus"
+
 footer: Research Data Management, 10-14 July 2023, Kiel
+
 institute: Institut für Ur- und Frühgeschichte
+
 language: en
+
+icon: https://www.uni-kiel.de/ps/cgi-bin/logos/files/cau/norm-en/cau-norm-en-lilagrey-rgb.svg
+
+version:  1.0
+
+language: en
+
+narrator: English Female
+
+tags: research data management, databases, archaeology, data types, data structures, metadata
 
 comment:  Presentation for full day workshop "Introduction to Research Data Management" Summer School 2023, mixed target group (students, PhDs)
 
 
 -->
+
 # Publishing Data Online
 **Lizzie Scholtus**  
 
@@ -19,6 +34,9 @@ Institut für Ur- und Frühgeschichte
 Research Data Management, 10-14 July 2023, Kiel
 
 # Why publishing data?
+
+
+
 
 ## Why publishing data online?
 
