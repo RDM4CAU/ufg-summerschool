@@ -34,13 +34,29 @@ In our example we are using SQLite (https://www.sqlite.org/index.html) and the S
 </section>
 
 ### Enter data into your database (manual and csv import)
+<section>
 
-Manual entry:
+#### Manual entry:
 
 * Click under *data* on **Insert row**, click into fields and enter your data.
 * You can also design a form under *Form view*.
 
-Import csv:
+![Alt text](database-tutorial/db_images/ssdb_04.png) <!-- width="700px" -->
+
+#### Import/export csv:
+
+![Alt text](database-tutorial/db_images/ssdb_05.png) <!-- width="300px" align="right" -->
 
 * Click on **Import** and select your database and table.
 * Select your data type, your .csv file and the encoding (UTF8 is best). Also you can select the data separator and check if your data has a header. Then you can click the finish-button and your data gets imported.
+* The same way you can also export your data. Be sure to know your goals for further processing!
+
+### Congratulations, you did it !!! ;-)
+Now you know the basics of database usage. Have fun with your projects!!
+
+#### Further reading (german):
+
+* Alfons Kempler, André Eickler: Datenbanksysteme. Eine Einführung. Auflage 9, München 2013.
+* Alice Zhao: SQL kurz & gut. 3. Auflage, Heidelberg 2022.
+
+</section>
