@@ -6,16 +6,18 @@ In our example we are using SQLite (https://www.sqlite.org/index.html) and the S
 **Follow the instructions of the installer and open the client after you're done.**
 
 ### The SQLiteStudio interface
-
 ![Alt text](database-tutorial/db_images/ssdb_01.jpg)
+
 </section>
 
 ### Creating a database, tables and columns
-First steps:
+First step is to create a database file:
 
-* was auch immer
-* ![Alt text](database-tutorial/db_images/02.jpg)
-* test2
+* click on **add a database**
+* select SQLite 3
+* create an .db3 file with a name and folder of your choice
+* ![Alt text](database-tutorial/db_images/ssdb_02.png)
+
 ### Enter data into your database (manual and csv import)
 
 
