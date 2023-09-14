@@ -54,6 +54,7 @@ Research Data Management, 10-14 July 2023, Kiel
 ![](image/why.png)
 </div>
 
+<div style="page-break-after: always;"></div>
 ## Why publishing data online?
 
 <div style="float:right; width:5%;">
@@ -94,7 +95,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Open_science)
 
 </div>
 
-
+<div style="page-break-after: always;"></div>
 ## What is Open Science?
 
 <div style="float:right; width:5%;">
@@ -126,13 +127,14 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 
 </div>
 
-
+<div style="page-break-after: always;"></div>
 ## What are the FAIR principles?
 
 <br/>
 
 ![](image/FAIR.png)
 
+<div style="page-break-after: always;"></div>
 
 ## Why publishing data online?
 
@@ -163,6 +165,8 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 ![](image/why.png)
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Where to publish data
 
@@ -222,6 +226,7 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 <br>
 ![](image/workflow.png)
 
+<div style="page-break-after: always;"></div>
 
 # Three platforms, Three uses 
 
@@ -268,6 +273,7 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 
 </div>
 
+<div style="page-break-after: always;"></div>
 
 ## [Gitlab](https://gitlab.com/)
 
@@ -296,6 +302,9 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 - Licence attribution
 - institutional instance exist
 
+
+::: {.notes}
+
 - Description: more for code deposition but can be with data
 - Inconvenient
   - not easy to use > Git
@@ -305,9 +314,10 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
   - Branch > allows every author and collegue to work on its part and then merge it to the whole project
   - Standalone pages > allows creation of html pages > easy diffusion with no obligation  
         > website
+    
+:::
 
-
-
+<div style="page-break-after: always;"></div>
 
 ## [Zenodo](https://zenodo.org/) 
 
@@ -333,7 +343,9 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 - Version control
 - Deposit can be private or public
 - Licence attribution
-  
+
+::: {.notes}
+
 - Description: 
   - Created by CERN to follow the Open Science recommandation
     - It is institutionnal > maintained by CERN and EU
@@ -344,7 +356,9 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
   - Gives a DOI to new publication (if there is already one you can just link it)
   - Various metadata: can document precisely the data and the project and link it to every other publication
 
+:::
 
+<div style="page-break-after: always;"></div>
 
 ## [ArkeoGIS](https://arkeogis.org/)
 
@@ -369,7 +383,9 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 - Automatic chronological alignement
 - LOD (Link Open Data)
 - DOI
-  
+
+<div style="page-break-after: always;"></div>
+
 ## [ArkeoGIS](https://arkeogis.org/)
 
 ![](image/ArkeoGIS.png){width=150}
@@ -397,6 +413,8 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
 - DOI
 - Data under password login or completly [open](https://arkeopen.org)
 
+<div style="page-break-after: always;"></div>
+
 # What is LOD?
 
 ## What is LOD? (Link Open Data)
@@ -415,6 +433,7 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
   - Metadata
   - Resource Description Framework (RDF) = model to describe online data using subject-predicate-object form
 
+<div style="page-break-after: always;"></div>
 
 ## What is Semantic Web?
 
@@ -452,6 +471,8 @@ Source: [French Ministry of Higher Education and Research](https://www.enseignem
   
 - All of this is how the whole web is constructed and it is how we can use browsers to look for webpages
 
+<div style="page-break-after: always;"></div>
+
 # What does this mean for you?
 
 ## What does this mean to you?
@@ -480,6 +501,8 @@ To integrate best practice standards, you don't have to respect them all! It is 
 - specify licences and if possible leave them open (open does not mean necessary free)
 :::
 
+<div style="page-break-after: always;"></div>
+
 # The French Data Management Environment
 
 ## A government strategy
@@ -495,6 +518,8 @@ To integrate best practice standards, you don't have to respect them all! It is 
 ![](image/cnrs.png)
 ![](image/ESR.png)
 
+<div style="page-break-after: always;"></div>
+
 ## Huma-Num
 
 ![](/image/Huma-Num.png)
@@ -509,6 +534,8 @@ This government strategy is reflected in the French research landscape through t
 
 :::
 
+<div style="page-break-after: always;"></div>
+
 ## MASA
 ![](/image/masa.png)
 
@@ -521,8 +548,9 @@ The aim is to help archaeologists make their data interoperable and open up thei
 
 :::
 
-## MASA Digital Ecosystem
+<div style="page-break-after: always;"></div>
 
+## MASA Digital Ecosystem
 
 ![](image/masa2.png)
 
