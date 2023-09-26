@@ -30,7 +30,7 @@ Obviously, you would usually have far more information, but for our purposes, we
 
 <section>
 
-(attribute + tupel?)
+
 
 In order to understand databases, there are a few things that you should have heard about.
 
@@ -44,7 +44,11 @@ In order to understand databases, there are a few things that you should have he
 
 There are many different ways on how to build databases, but the most popular approach is the relational one.
 
-In this, everything is based on tables. You can think of a database as many different spreadsheets that get interlinked through so-called ***keys***. Something that doesn´t exist in usual tables are ***constraints***, which allow for further specifications on the values in the constrained column. 
+In this, everything is based on tables.
+It consists of lines and columns, except that the lines are called ***tuple*** and the columns are called ***attribute***. Therefore, each grave is a tuple, and its width and form, as well as the number are its attributes.
+
+
+ You can think of a database as many different spreadsheets that get interlinked through so-called ***keys***. Something that doesn´t exist in usual tables are ***constraints***, which allow for further specifications on the values in the constrained column. 
 
 The structure of the database is defined by a ***schema***. It´s really not much more than the header you have in a regular table. For example, in our table for Graves, we have the number of the Grave, the width and the form. This is the schema of that table. 
 
@@ -56,17 +60,17 @@ For instance, the Width of the Graves will only need to have number values, wher
 
 There are two different kind of keys: **Primary and Foreign Keys**.
 
-Primary Key:
+**Primary Key:**
 
 In a database, you can´t have duplicates. To ensure the uniqueness of each line, you need to define a Primary Key. It serves as a distinct identifier for this specific line. 
 In our case, it makes sense to take the grave number as our ID. Similarly, the artefact number will be the primary key for the artefact table.
 
-Foreign Key:
+**Foreign Key:**
 
 A foreign key references the primary key of another table. 
 For example, the artefact table has a column in_grave, which shows us to what grave the artefact belongs to. As you can see, in_grave uses the value of grave_number, the primary key of the Grave table. By that, we can match the artefact with the specific grave. All the information is linked together but it is stored in a way that is easier for us to overview. This is one of the big advantages of using databases.
 
-You can define a column to be a foreign or primary key (or both), when creating the column
+You can define a column to be a foreign or primary key (or both), when creating the column.
 
 
 ### Datatypes
@@ -96,19 +100,20 @@ In most cases, we only have Text or Numerical Data, so Blob is rarely ever used.
 
 Other than defining primary and foreign keys, you can also determine certain other conditions that the values in a column have to meet.
 
-- NOT NULL: With this, it is not allowed to leave this column empty.
+- NOT NULL 
+With this, it is not allowed to leave this column empty.
 
-- UNIQUE: 
-This means, that the value in the column each must be unique. For instance, a primary key is also automatically unique.
+- UNIQUE 
+This means, that the value in the column each must be unique. For instance, a primary key is also automatically unique. But a unique attribute does not necessarily need to be a primary key.
 
-- CHECK:
+- CHECK
 With this you can define your own rules, which the specific column has to meet. For basic use, you must not worry about this. 
 
 
 
 ## Creating a database concept
 
-When creating a database, there are certain steps to follow:
+When creating a database, there are certain questions that you should answer first:
 
 1. Define your schema - How many tables do you need? 
 2. Define the datatypes for each column - What values are permitted, which are forbidden?
